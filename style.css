@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: wedding;
+    src: url(PinyonScript-Regular.ttf);
+}
+
+body {
+    background-color: rgb(51, 51, 51);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 16px;
+}
+
+.container img {
+    height: 50px;
+}
+
+.container-list {
+    display: flex;
+    gap: 32px;
+}
+
+.container-list a:hover {
+    color: rgb(255, 192, 203);
+    transition: .3s;
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(40%);
+}
+
+.main h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: wedding;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.main p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: light;
+}
+
+.main button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    margin-top: 12px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.767) 50%, rgba(255, 192, 203, 0.664) 50%);
+    border: 1px solid #fff;
+}
+
